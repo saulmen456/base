@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be272ccc26560444ea0aaca8a521cae8, type: 3}
+  m_Name: Adam_inicio
+  m_EditorClassIdentifier: 
+  dialogueText: "Hola, parece que mi baile te llam\xF3 la atenci\xF3n."
+  responsesh:
+  - responseText: "S\xED, tienes un estilo interesante, quer\xEDa saludarte"
+    nextDialogue: {fileID: 11400000, guid: 381bd283e0331834185cf51e7bc666cc, type: 2}
+    responseValue: 3
+  - responseText: Solo estaba mirando, nada en particular
+    nextDialogue: {fileID: 11400000, guid: 381bd283e0331834185cf51e7bc666cc, type: 2}
+    responseValue: 2
+  - responseText: "Estaba buscando a alguien m\xE1s"
+    nextDialogue: {fileID: 11400000, guid: 381bd283e0331834185cf51e7bc666cc, type: 2}
+    responseValue: 1

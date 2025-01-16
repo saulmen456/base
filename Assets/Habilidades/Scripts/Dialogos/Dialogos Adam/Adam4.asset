@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be272ccc26560444ea0aaca8a521cae8, type: 3}
+  m_Name: Adam4
+  m_EditorClassIdentifier: 
+  dialogueText: "\xBFQu\xE9 tal la gente aqu\xED? \xBFTe sientes c\xF3modo con ellos?"
+  responsesh:
+  - responseText: "S\xED, todos parecen bastante amigables."
+    nextDialogue: {fileID: 11400000, guid: 751f5fed67ce19944bd61684f685c22a, type: 2}
+    responseValue: 3
+  - responseText: "Est\xE1n bien, supongo."
+    nextDialogue: {fileID: 11400000, guid: 751f5fed67ce19944bd61684f685c22a, type: 2}
+    responseValue: 2
+  - responseText: En realidad, no me siento muy a gusto.
+    nextDialogue: {fileID: 11400000, guid: 751f5fed67ce19944bd61684f685c22a, type: 2}
+    responseValue: 1

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be272ccc26560444ea0aaca8a521cae8, type: 3}
+  m_Name: Alex 4
+  m_EditorClassIdentifier: 
+  dialogueText: "\xBFTe interesa lo que estoy haciendo en la computadora?"
+  responsesh:
+  - responseText: "\xA1Claro, si no es un problema para ti!"
+    nextDialogue: {fileID: 11400000, guid: fbc4779c97748bd498e44e3ffa78ffc7, type: 2}
+    responseValue: 3
+  - responseText: "Tal vez, depende de qu\xE9 sea."
+    nextDialogue: {fileID: 11400000, guid: fbc4779c97748bd498e44e3ffa78ffc7, type: 2}
+    responseValue: 2
+  - responseText: "No, solo estaba buscando con qui\xE9n hablar."
+    nextDialogue: {fileID: 11400000, guid: fbc4779c97748bd498e44e3ffa78ffc7, type: 2}
+    responseValue: 1
