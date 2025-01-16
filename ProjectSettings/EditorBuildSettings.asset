@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ScenesProyect/Interfaz de inicio.unity
+    guid: d334cd276e47d404d92c85790bedb761
+  - enabled: 1
+    path: Assets/ScenesProyect/Home.unity
+    guid: eb0372c4733d12d49ad64e091b6d2af4
+  - enabled: 1
+    path: Assets/ScenesProyect/GameScenes/Ansiedad.unity
+    guid: 74d46e408546f1741afe7e1cd5cbe944
+  - enabled: 1
+    path: "Assets/ScenesProyect/GameScenes/Depresi\xF3n.unity"
+    guid: a4c8331e5ce24d14c9cbf6c074604eda
+  - enabled: 1
+    path: Assets/ScenesProyect/GameScenes/Dislexia.unity
+    guid: 96b68c74c679d084b8676303f92dd997
+  - enabled: 1
+    path: "Assets/ScenesProyect/GameScenes/Estr\xE9s.unity"
+    guid: 73a46169c60088146bdbe0257681a8d5
+  - enabled: 1
+    path: Assets/ScenesProyect/GameScenes/HabilidadesSociales.unity
+    guid: 0ad9fad187e6d0c46aa67a9e052b3ffd
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: cc7c578a63c1fd04382a624c645d5fb3, type: 2}
